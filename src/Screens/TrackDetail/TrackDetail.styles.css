@@ -1,0 +1,63 @@
+.track_detail_main {
+  background-color: rgba(24, 24, 24, 255);
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  margin: 0px auto;
+  max-width: 1400px;
+  padding: 80px;
+  flex-direction: column;
+}
+.track_name_and_link {
+  display: flex;
+}
+.track_image img {
+  width: 250px;
+}
+.track_details {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.track_details h2 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 42px;
+}
+.track_details h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #b3b3b3;
+  font-size: 23px;
+}
+.track_details h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #b3b3b3;
+  font-size: 15px;
+  font-weight: 400;
+}
+.track_details button {
+  margin-top: 30px;
+  border: none;
+  color: white;
+  background-color: #1db954;
+  padding: 10px 30px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  width: 200px;
+}
+.track_grid {
+  display: grid;
+  margin-top: 70px;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+  border-top: 1px solid #3e3e3e;
+  border-left: 1px solid #3e3e3e;
+}

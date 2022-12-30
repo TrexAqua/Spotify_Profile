@@ -1,0 +1,60 @@
+.playlists_main_display {
+  display: flex;
+  background-color: #181818;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.playlists_main {
+  height: 100%;
+  max-width: 1400px;
+  width: 100%;
+  padding: 80px;
+  margin: 0 auto;
+  align-items: center;
+}
+.playlists_main h3 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 25px;
+  margin-left: 40px;
+}
+.playlists_grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 50px;
+}
+.playlist_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  min-height: 300px;
+}
+.playlist_item img {
+  width: 220px;
+  min-height: 220px;
+  cursor: pointer;
+}
+.playlist_item h4 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  max-width: 200px;
+  cursor: pointer;
+  transition: 1s;
+}
+.playlist_item h4:hover {
+  text-decoration: underline;
+}
+.playlist_item h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  max-width: 200px;
+  color: #9b9b9b;
+}

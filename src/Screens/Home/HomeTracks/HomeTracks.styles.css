@@ -1,0 +1,27 @@
+.hometracks_main {
+  width: 1200px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+@media all and (max-width: 1420px) {
+  .hometracks_main {
+    width: 1000px;
+  }
+}
+@media all and (max-width: 1250px) {
+  .hometracks_main {
+    width: 900px;
+  }
+}
+@media all and (max-width: 1176px) {
+  .hometracks_main {
+    margin-left: 10vw;
+  }
+}
+@media all and (max-width: 1024px) {
+  .hometracks_main {
+    justify-content: space-around;
+  }
+}
+

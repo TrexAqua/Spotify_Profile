@@ -1,0 +1,95 @@
+.top_tracks_main {
+  display: flex;
+  width: 48%;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.top_tracks_heading {
+  display: flex;
+  justify-content: space-between;
+}
+.top_tracks_heading h2 {
+  font-size: 19px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.top_tracks_heading button {
+  border: 1px solid white;
+  padding: 8px 30px;
+  background: none;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 250ms;
+  letter-spacing: 0.3px;
+}
+.top_tracks_heading button:hover {
+  color: rgb(24, 24, 24);
+  background-color: white;
+}
+.track_top {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  cursor: pointer;
+  transition: 200ms;
+  margin-top: 40px;
+  width: 100%;
+}
+.track_top:hover {
+  background-color: rgb(38, 38, 38);
+}
+.track_top img {
+  width: 50px;
+  height: 50px;
+}
+.track_top_detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.track_top_detail p {
+  color: #9b9b9b;
+  font-size: 12px;
+}
+.track_top_duration {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+@media all and (max-width: 1250px) {
+  .track_top {
+    width: 90%;
+    justify-content: space-around;
+  }
+}
+@media all and (max-width: 1176px) {
+  .top_tracks_main {
+    padding-left: 0;
+  }
+}
+@media all and (max-width: 1024px) {
+  .top_tracks_main {
+    width: 40%;
+  }
+}
+@media all and (max-width: 950px) {
+  .top_tracks_heading {
+    justify-content: flex-start;
+  }
+  .top_tracks_heading h2 {
+    width: 50%;
+  }
+  .top_tracks_heading button {
+    height: 38px;
+  }
+}

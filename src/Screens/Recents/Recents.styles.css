@@ -1,0 +1,55 @@
+.top_recents_main_display {
+  padding: 80px;
+  width: 100%;
+  flex-direction: column;
+  max-width: 1400px;
+  background-color: '#181818';
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+}
+.top_recents_link_display {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.top_recents_link_display h3 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+}
+
+.top_recent_display_item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  transition: 150ms;
+  padding: 10px;
+  align-items: center;
+}
+.top_recent_display_item:hover {
+  background-color: #b3b3b311;
+}
+.top_recent_display_item_left {
+  display: flex;
+}
+.top_recent_display_item_left img {
+  width: 50px;
+  margin-right: 20px;
+}
+.top_recent_display_item_left div h4 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.top_recent_display_item_left div h5 {
+  color: #b3b3b3;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.top_recent_display_item_right h5 {
+  color: #b3b3b3;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}

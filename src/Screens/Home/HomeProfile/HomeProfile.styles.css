@@ -1,0 +1,64 @@
+.home_profile_container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  justify-content: space-between;
+  height: 350px;
+}
+.home_playlist_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.home_playlist_item h4 {
+  color: rgb(29, 185, 84);
+  font-family: 'Poppins', sans-serif;
+}
+.home_playlist_item p {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(155, 155, 155);
+  font-size: 13px;
+}
+.home_profile_image img {
+  border-radius: 50%;
+  width: 150px;
+}
+.home_profile_image h2 a {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+.home_logout {
+  display: flex;
+  justify-content: center;
+}
+.home_logout button {
+  border: 1px solid white;
+  padding: 8px 30px;
+  background: none;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 250ms;
+  letter-spacing: 0.3px;
+}
+.home_logout button:hover {
+  color: rgb(24, 24, 24);
+  background-color: white;
+}
+@media all and (max-width: 1243px) {
+  .home_profile_container {
+    margin-left: 50px;
+  }
+}
+@media all and (max-width: 950px) {
+  .home_profile_container {
+    margin-left: 90px;
+  }
+}

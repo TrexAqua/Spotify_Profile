@@ -1,0 +1,79 @@
+.top_artist_main {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.top_artist_heading {
+  display: flex;
+  justify-content: space-between;
+}
+.top_artist_heading h2 {
+  font-size: 19px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.top_artist_heading button {
+  border: 1px solid white;
+  padding: 8px 30px;
+  background: none;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 250ms;
+  letter-spacing: 0.3px;
+}
+.top_artist_heading button:hover {
+  color: rgb(24, 24, 24);
+  background-color: white;
+}
+.artist_top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  transition: 200ms;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+.artist_top h5 {
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 20px;
+  font-weight: 400;
+}
+.artist_top:hover {
+  background-color: rgb(38, 38, 38);
+}
+.artist_top img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+@media all and (max-width: 1250px) {
+  .artist_top {
+    width: 80%;
+  }
+}
+@media all and (max-width: 1024px) {
+  .top_artist_main {
+    width: 40%;
+  }
+}
+@media all and (max-width: 950px) {
+  .top_artist_main {
+    margin-left: 50px;
+  }
+  .top_artist_heading {
+    justify-content: center;
+  }
+  .top_artist_heading h2 {
+    width: 50%;
+  }
+  .top_artist_heading button {
+    height: 38px;
+  }
+}
