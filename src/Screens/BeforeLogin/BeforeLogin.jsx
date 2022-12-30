@@ -12,8 +12,7 @@ const BeforeLogin = () => {
     window.localStorage.setItem('spotify_token_timestamp', Date.now());
   };
   const authEndpoint = 'https://accounts.spotify.com/authorize';
-  const redirectUri =
-    'https://spotify-profile-99s5-ejubu77oq-trexaqua.vercel.app/';
+  const redirectUri = 'https://spotify-profile-hs4w.vercel.app/';
   const clientId = '87c71027cead452a905fe9bca6e35a6b';
   const scopes = [
     'user-read-private',
